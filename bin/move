@@ -6,4 +6,5 @@ require_relative '../lib/move.rb'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input=gets.strip
-input_to_variable(
+input_to_variable(input)
+move(board,index)
