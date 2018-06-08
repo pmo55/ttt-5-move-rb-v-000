@@ -9,7 +9,7 @@ end
 def input_to_index(string)
   index=string.to_i-1
 end
-def move(board,x,player="X")
+def move(board,x,"X")
 board[x=index]
 display_board(board)
 end
