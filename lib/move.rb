@@ -10,7 +10,7 @@ def input_to_index(string)
   index=string.to_i-1
 end
 def move(board,index,player="X")
-board[x=index]
+board[index]
 display_board(board)
 end
   
