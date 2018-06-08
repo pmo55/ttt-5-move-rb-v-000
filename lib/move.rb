@@ -12,7 +12,5 @@ end
 def move(board,x,player="X")
   board[index]=X
   display_board(X)
-  
-  
 end
   
